@@ -1,0 +1,924 @@
+/* General Properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Properties */
+
+/* =============================================================================================================================== */
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    color: black;
+    font-family: "Raleway", sans-serif;
+}
+
+.dot {
+    font-size: 42px;
+    font-weight: 700;
+    color: #e03a3c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.get-start:hover {
+    opacity: 0.9;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Navbar */
+
+/* =============================================================================================================================== */
+
+/* Hero Section */
+
+.heroimg {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.fa-circle-play {
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.btn-txt {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.hero-h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-p {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    color: white;
+}
+
+.hero-container {
+    padding-top: 220px;
+}
+
+.hero-bg-img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn-watch-video {
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.icon {
+    color: #e03a3c;
+}
+
+.watch-vid:hover {
+    color: #e03a3c;
+}
+
+/* Hero Section */
+
+/* =============================================================================================================================== */
+
+/* Clients Section */
+
+.client {
+    padding-top: 500px;
+}
+
+.cli-1 {
+    width: 95px !important;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.owl-adj {
+    padding-top: 300px;
+    padding-bottom: 10px;
+}
+
+/* Clients Section */
+
+
+/* SLANDING LINE  */
+
+.sland1 {
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.sland2 {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    transform: skewY(-2deg);
+}
+
+
+/* SLANDING LINE  */
+
+
+/* about section */
+
+.about-row {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.abt-h3 {
+
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.abt-3 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.abt-btn {
+    padding: 8px 30px 9px 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.abt-sec {
+    background-color: black;
+}
+
+.breifcase-icon {
+    font-size: 35px;
+    padding-top: 2px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.stretched-link {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.stretched-link:hover {
+    color: red;
+}
+
+.breif-col {
+    padding-top: 10px;
+    color: white;
+}
+
+/* about section */
+
+/* =============================================================================================================================== */
+
+/* Status section */
+
+.status-main {
+    padding-top: 50px;
+}
+
+.stat-count {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stat-count-p {
+    font-size: 16px;
+}
+
+.stat-icon {
+    font-size: 24px;
+    color: #e03a3c;
+}
+
+/* Status section */
+
+/* =============================================================================================================================== */
+
+/* Tabs Section */
+
+.tab-main {
+    padding-top: 50px;
+}
+
+.tab-content-main {
+    padding-top: 30px;
+}
+
+/* Tabs Section */
+
+/* =============================================================================================================================== */
+
+/* Service section */
+
+
+.service-bg {
+    background-color: black;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+
+}
+
+.service-head {
+
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.service-para {
+    color: white;
+
+}
+
+.service-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.icon-service-section {
+    font-size: 36px;
+    color: #e03a3c;
+}
+
+
+.service-sec-head {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.anchor-service {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.service-sec-para {
+    line-height: 24px;
+    font-size: 14px;
+    color: white;
+}
+
+.service-border {
+    background-color: rgb(39, 39, 39);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+
+/* Service section */
+
+/* =============================================================================================================================== */
+
+/* Portfolio Section */
+
+.portfolio-head-div {
+    padding-top: 80px;
+}
+
+.portfolio-head {
+
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+.portfolio-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+
+}
+
+
+.tablink {
+    text-decoration: none;
+
+}
+
+/* Portfolio Section */
+
+/* =============================================================================================================================== */
+
+/* Testimonials section */
+
+.testimonial-head-div {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.testimonial-head {
+
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+.testimonial-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.quote {
+    color: pink;
+}
+
+.testi-h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.testi-h4 {
+    font-size: 18px;
+    color: grey;
+    margin-top: 0px;
+}
+
+.testi-span {
+    font-style: italic;
+}
+
+.testimonial-img {
+    width: 90px;
+    border-radius: 50px;
+}
+
+.testimonial-item {
+    padding-top: 40px;
+}
+
+.test-items-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 30px;
+    border: 1px solid rgb(242, 242, 242);
+}
+
+
+/* Testimonials section */
+
+/* =============================================================================================================================== */
+
+/* Pricing section */
+
+.pricing-bg {
+    width: 100%;
+    background-color: black;
+
+    padding-bottom: 100px;
+    /* transform: skewY(-3deg);
+    z-index: -1; */
+}
+
+/* -------------------------------------------------------------- */
+
+.pricing-head-div {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.pricing-head {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.pricing-para {
+    color: white;
+}
+
+
+.pricing-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.pricing-h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.pricing-h4 {
+    font-size: 48px;
+    color: red;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    ;
+}
+
+.pricing-h4-span {
+    font-size: 18px;
+    color: #6F6F6F;
+}
+
+.pricing-ul {
+    padding: 20px 0px;
+    list-style: none;
+    line-height: 20px;
+    color: #6F6F6F;
+}
+
+.pricing-check-icon {
+    color: green;
+}
+
+.pricing-x-icon {
+    font-size: 10px;
+}
+
+.buy-btn {
+    padding: 8px 35px 10px 35px;
+    color: #6F6F6F;
+    border: 1px solid #6F6F6F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buy-btn:hover {
+    background-color: #e03a3c;
+    color: white;
+}
+
+.pricing-box {
+    padding: 60px 40px;
+    background-color: #272727;
+}
+
+
+.pricing-box-mid {
+    padding: 100px 40px;
+    background-color: #e03a3c;
+
+}
+
+.pricing-h3-mid {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.pricing-h4-mid {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    ;
+}
+
+.pricing-h4-span-mid {
+    color: white;
+    font-size: 18px;
+}
+
+.pricing-check-icon-mid {
+    color: white;
+}
+
+.pricing-ul-mid {
+    color: white;
+    padding: 20px 0px;
+    list-style: none;
+    line-height: 20px;
+}
+
+.buy-btn-mid {
+    padding: 8px 35px 10px 35px;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buy-btn-mid:hover {
+    color: white;
+}
+
+/* Pricing section */
+
+/* =============================================================================================================================== */
+
+/* FAQ */
+
+
+
+.faq-head-div {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.faq-head {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.faq-para {
+    color: black;
+}
+
+
+.faq-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 25px;
+
+}
+
+/* FAQ */
+
+/* =============================================================================================================================== */
+
+/* Team */
+
+.team-main {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.team-head-div {
+    position: relative;
+    padding-top: 50px;
+
+}
+
+.team-head {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.team-para {
+    color: white;
+}
+
+
+.team-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+/* -------------------------------------------------- */
+
+.member-info {
+    color: white;
+    padding-left: 10px;
+}
+
+.member-info span {
+    color: #6F6F6F;
+}
+
+.img-team {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.team-member {
+    background-color: #2D2D2D;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.social {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.social a {
+    color: white;
+}
+
+.social a:hover {
+    color: #e03a3c;
+}
+
+/* Team */
+
+/* =============================================================================================================================== */
+
+/* Contact */
+
+
+.contact-head-div {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.contact-head {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.contact-para {
+    color: black;
+}
+
+
+.contact-head:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: red;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+/* ----------------------------------------------------- */
+
+
+.address-icon {
+    font-size: 20px;
+    color: red;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px solid;
+    border-radius: 50%;
+    border: 2px dotted red;
+}
+
+.contact-leftside-h3 {
+    color: #6F6F6F;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contcat-leftside-p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.small-block {
+    margin-top: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.address-block {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sendmessage-submit {
+    color: white;
+    background-color: #e03a3c;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.message-block{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-main{
+    padding-bottom: 80px;
+}
+
+/* Contact */
+
+/* =============================================================================================================================== */
+
+/* Footer */
+
+.footer-background{
+    background-color: #1B1B1B;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.sitename{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.logo{
+    text-decoration: none;
+
+}
+
+.footer-contact{
+    color: white;
+    font-size: 14px;
+}
+
+.icon-footer{
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 16px;
+    color:white;
+    margin-right: 10px;
+  
+}
+
+.useful-links{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.footer-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.lines{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1;
+}
+
+.li-foot{
+    padding: 10px 0px;
+
+}
+
+.footer-newsletter p{
+    color: white;
+}
+
+.newsletter-form input[type=submit] {
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+    margin: -7px -8px -7px 0;
+    background: red;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.text-center{
+    color: white;
+}
+
+.dsg{
+    color: #e03a3c;
+    text-decoration: none;
+
+}
+
+
+
+/* Footer */
+
+/* =============================================================================================================================== */
+
+/* ARROW */
+
+.arrow {
+    width: 35px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #e03a3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+}
+
+.arrow i {
+    color: white;
+}
+
+
+/* ARROW */
